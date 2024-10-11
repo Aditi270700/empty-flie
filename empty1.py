@@ -31,3 +31,22 @@ print(lis)
 
 lis.insert(1,"stawberry")
 print(lis)
+
+nums = [2,43,45,56,7,8,9,-33,44]
+fruit = ["apple","banana","orange","mango"]
+# len() used for length
+#Note: dot(period) operator (methods)
+#function without using any dot opeartor
+a=len(nums)
+print(a)
+
+#max
+a = max(nums)
+print(a)
+p = max(fruit)
+print(p)
+a = min(nums)
+print(a)
+a = sum(nums)
+print(a)
+
