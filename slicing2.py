@@ -1,0 +1,14 @@
+lis1=[12,3,44,'saurabh',56,7,88,'aditya',33,4,5]
+print(lis1)
+a=lis1[3:]
+print(a)
+a=lis1[3::2]
+print(a)
+a=lis1[3:7]+lis1[8:]
+print(a)
+a=lis1[7:2:-1]
+print(a)
+a=lis1[-4:-9:-1]
+print(a)
+a=lis1[::-1]
+print(a)

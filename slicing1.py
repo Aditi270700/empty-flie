@@ -14,3 +14,5 @@ a=lis1[3:8:1]
 print(a)
 b=lis1[3:8:1]
 print(b)
+
+#slicing is used to get slice (subsequence) of a sequence datatype
