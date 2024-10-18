@@ -26,11 +26,19 @@ print(a)
 b=msg.upper()
 print(b)
 
-a=msg.isupper()
+a=msg.isupper()# return boolean output
 print(a)
 a=msg.islower()
+print(a)
+a=msg.isdigit()
+print(a)
+a=msg.isalpha()
 print(a)
 #lower() all letter are convert into small letter
 data="ASDFDGDFGFHGJHKJKJ"
 c=data.lower()
 print(c)
+
+messege="asdsdd" #alpha does not take space then it is return true
+a=messege.isalpha()
+print(a)
