@@ -32,3 +32,12 @@ c=s[2][::-1]
 d=s[3][::-1]
 s=[a,b,c,d]
 print(s)
+
+
+s = "Apple Banana"
+a = s[6:]
+print(a)
+b = s[::-1]
+print(b)
+c = s[6:]+" "+[:5]
+print(c)
